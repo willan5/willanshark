@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/toggle.js"></script>
+    <title>Clemo Mtiaji</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <a class="logocontainer" href=""><img src="img/logo.png" alt="logo"></a>
+            <!-- <input type="checkbox" id="nav-toggle" class="toggle"> -->
+            <ul class="menu">
+                <li><a href="">How it Works</a></li>
+                <li><a href="">Latest Reviews</a></li>
+                <li><a href="">Topwriters</a></li>
+                <li><a href="">Samples</a></li>
+                <li><a href="">Blog</a></li>    
+            </ul>
+            <a  href=""><button>My account</button></a>
+            <!-- <label for="nav-toggle" class="gg-menu"></label> -->
+        </nav>
+        <nav class="nav-container-mobile">
+            <div class="mobile-nav">
+                <a class="mobile-logocontainer" href=""><img src="img/logo.png" alt="logo"></a>
+                <a  href="" id="refnav"><button>My account</button></a>
+                <i class="fa-solid fa-circle-user" id="iconmobile"></i>
+                <label  id="opennav"class="gg-menu" onclick="openNav()"></label>    
+            </div> 
+        </nav>
+        <nav  id="navmob" class="nav-toggle">
+            <label class="gg-close" onclick="closeNav()"></label>
+            <ul class="mobile-menu">
+                <li><a href="">How it Works</a></li>
+                <li><a href="">Latest Reviews</a></li>
+                <li><a href="">Topwriters</a></li>
+                <li><a href="">Samples</a></li>
+                <li><a href="">Blog</a></li>    
+            </ul> 
+        </nav>  
+    </header>
+    <!-- start of section -->
+    <section>
+        <div class="inner-container">
+            <div class="grid-one">
+                <div class="top-text">Essay Writing Service Ready
+                    to Help Online 24/7 </div>
+                <div class="lower-text">Hire a professional essay writer at $13.40 per page and get qualified and unique paper help. Use our essay services and save more time for yourself. </div>
+            </div>
+            <div class="grid-two">
+                <form action="">
+                    <label for="paper">Unlock better papers</label><br><br>
+                    <label for="email">Email</label><br>
+                    <input type="text" id="emailtype" name="email" placeholder="Email"><br>
+                    <label for="typeofpaper">Type of paper</label><br>
+                    <input type="text" id="typeofpaper" name="typeofpaper"><br>
+                    <label for="page">Page</label><br> 
+                    <input type="number" id="page" name="page">
+                    <label for="wordcount">257 Words</label><br>
+                    <label for="date">Deadline</label><br>
+                    <input type="datetime-local" id="date" name="date"><label for="wordcount">2h 20m left</label><br>
+                    <input type="submit" value="Place your Order">
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
