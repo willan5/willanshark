@@ -326,6 +326,16 @@ input[type="submit"]:hover{
     .nav-container-mobile .mobile-nav a button{
         display:none;
     }
+    .mobile-logocontainer{
+        margin-left:10px;
+        width:100px;
+        justify-self: start;
+        align-items: start; 
+    }
+    img{
+        max-width: 160%;
+        padding-right:30px;    
+    }
     .nav-container-mobile .mobile-nav i{
         display: grid;
         position:absolute;
