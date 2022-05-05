@@ -314,7 +314,6 @@ input[type="submit"]:hover{
         margin-left:0px;
         padding: 10px;
         width: 100%;
-        background-color: red;
     }
     .grid-two form{
         max-width:450px;
