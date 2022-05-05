@@ -343,7 +343,7 @@ input[type="submit"]:hover{
         -o-border-radius:50%;
     }
     .grid-two form{
-        max-width:350px;
+        max-width:300px;
         margin:10px 0px;
         background-color: #fff;
         height: 35em;
