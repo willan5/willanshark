@@ -344,9 +344,9 @@ input[type="submit"]:hover{
         -o-border-radius:50%;
     }
     .grid-two form{
-        max-width:400px;
+        max-width:350px;
         margin:10px 0px;
-        background-color: blue;
+        background-color: #fff;
         height: 35em;
     }
 
