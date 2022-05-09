@@ -210,25 +210,29 @@ input[type="submit"]:hover{
 }
 .paper-writing h2{
     background-color: #8cabca;
-    color: rgba(10, 1, 1, 0.616);
+    color: rgba(10, 1, 1, 0.815);
     text-align: center;
     width: 100%;
     margin-top:60px;
+}
+.paper-writing h3{
+    color: rgba(10, 1, 1, 0.815);
+    margin:0px 20px;
 }
 .paper-writing .visitorss{
     display:grid;
     grid-template-columns: 1fr;
     /* background-color:indigo */
 }
-.visitorss i{
+/* .visitorss i{
     justify-items: center;
     align-items: center;
     /* margin-top: 13px;*/
-    margin-left: 30px; 
-    font-size: 25px;
-    color: #035dc2;
+    /* margin-left: 30px; 
+    font-size: 25px; */
+    /* color: #035dc2; */
     /* background-color: yellow; */
-}
+/* } */ 
 .visitorss .contents{
     display:grid;
     /* background-color:red; */
